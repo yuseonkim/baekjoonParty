@@ -1,0 +1,16 @@
+1. 바탕화면에 baekjoon 폴더 생성
+2. 폴더 우클릭 -> 더많은 옵션보기 -> git bash here
+3. git config --global user.name "이름(깃이름)"
+4. git config --global user.email 깃이메일
+5. git clone https://github.com/yuseonkim/baekjoonParty.git
+
+
+깃 불러오기 ------
+1. git pull origin master
+2. ls
+3. 본인 아이디나오면 cd 본인 아이디(혹은 이름)
+<<<<<<항상 깃을 시작할때 git pull origin master 하고 시작 !!! >>>>>>>>>>
+깃 올리기 ------
+1. git add .
+2. git commit -m "날짜"
+3. git push origin master
