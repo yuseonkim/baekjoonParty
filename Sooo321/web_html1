@@ -1,0 +1,14 @@
+Hypertext Markup Language (HTML) is the standard markup
+language for <strong>creating <u>web</u> pages</strong> and web applications.
+
+<h1>h1은 첫 번째 중요한 제목</h1>
+<h2>h1은 두 번째 중요한 제목</h2>
+<h3>h1은 세 번째 중요한 제목</h3>
+<h4>h1은 네 번째 중요한 제목</h4>
+<h5>h1은 다섯 번째 중요한 제목</h5>
+<h6>h1은 여섯 번째 중요한 제목</h6>
+
+// html 문법 중 tag에 대해 학습함.
+// tag를 시작할 때는 <> 닫을 때는 </> ,, 닫을 때는 슬래시를 포함하여야 함.
+// strong은 태그 안에 있는 텍스트들 굵음 표시 하는 것
+// u는 underline의 첫 글자로 태그 안에 있는 텍스트에 문자를 표시하는 것임.
