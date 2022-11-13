@@ -16,11 +16,11 @@ int main()
             printf("%c", num ^ num2);
         }
     }
-
+    
     return 0;
 
 }
 
-//https://dreamhack.io/learn/quiz/17 <- 푼 문제
+//https://dreamhack.io/learn/quiz/17
 //어셈블리어가 동작하는 원리를 간단하게 배우고 그에 대한 문제를 풀어보았다.
 //0x400000 부터 0x400019까지의 데이터에 저장된 값에서 OX30을 빼고 이를 아스키코드로 변형하면 Welcome assembly world!가 출력된다.
