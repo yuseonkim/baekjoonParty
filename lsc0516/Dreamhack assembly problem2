@@ -19,7 +19,7 @@ write_n :
     mov rsi, QWORD PTR[rbp - 0x8] // rsi = QWORD PTR[rbp - 0x8] = 0x400500
     mov rdi, 0x1 // rdi = 0x1, stdout
     mov rax, 0x1 // rax = 0x1, wirte
-    syscall // syscall(1, 0x400500, 0xf) -> 0x400500 ~ 0x40050f까지 출력
+    syscall // syscall(rdi, rsi, edx) =  syscall(1, 0x400500, 0xf) -> 0x400500 ~ 0x40050f까지 출력
     pop rbp
     ret
 
@@ -31,3 +31,6 @@ write_n :
 
 //x86-64는 리틀 엔디언이라 1바이트씩 뒤에서 앞으로 읽어줘야한다.
 //r34dy 70 d3bu6? 이 답이 된다.
+
+//https://dreamhack.io/learn/quiz/25
+//레지스터에 따른 용도가 따로 있는것을 자주보면서 외워야겠다고 생각함.
