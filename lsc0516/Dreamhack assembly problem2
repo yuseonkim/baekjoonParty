@@ -33,4 +33,5 @@ write_n :
 //r34dy 70 d3bu6? 이 답이 된다.
 
 //https://dreamhack.io/learn/quiz/25
+//리틀 엔디안은 바이트 저장 방식중에 하나이다. 더욱 자세히 알고싶다면 http://www.tcpschool.com/c/c_refer_endian
 //레지스터에 따른 용도가 따로 있는것을 자주보면서 외워야겠다고 생각함.
