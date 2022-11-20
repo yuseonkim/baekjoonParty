@@ -1,0 +1,44 @@
+<h1>HTML</h1>
+<p>//h1~h6까지 있음. 제목을 나타내는 태그. 숫자가 커질수록 글자가 작아짐.
+//숫자가 나오는 태그를 쓰면 일반적인 텍스트보다 글씨가 두꺼움. 줄바꿈이 된다.</p>
+
+<p>Hypertext Markup Language (HTML) is the standard markup
+language for <strong>creating <u>web</u> pages</strong> and web applications.
+Web browsers receive HTML documents from a web server or from local storage and
+render them into multimedia web pages.
+HTML describes the structure of a web
+page semantically and originally included
+cues for the appearance of the document.</p>
+
+<p style="margin-top:60px">HTML elements are the building blocks of HTML pages.
+With HTML constructs, images and other objects,
+such as interactive forms, may be embedded into
+the rendered page. It provides a means to create
+structured documents by denoting structural semantics
+for text such as headings, paragraphs, lists, links,
+quotes and other items. HTML elements are delineated
+by tags, written using angle brackets.</p>
+
+//br은 줄바꿈하는 태그, 열리는 태그, 닫히는 태그가 존재하지 않음
+//p는 단락을 표현할때 쓰는 태그 ,, 열리는 닫히는 태그 존재
+//br태그 vs p태그
+//br태그는 줄바꿈을 많이 하고 싶으면 여러번 쓰면 되지만, p태그는 여백이 정해져있음
+//css라는 기술!!
+//css에서 태그와 태그 사이의 여백을 나타내는 코드가 있다.
+<br><br>
+
+<span style="font-size:24px">
+  coding
+</span>
+
+<h3>coding</h3>
+
+검색엔진은 전 세계에 있는 모든 웹페이지를 다운 받아서 
+그 웹페이지의 html코드를 분석함.
+그 코드의 내용에서 웹페이지의 제목과 내용 등을 태그로 근거로 정돈함.
+검색엔진에게 존재하는 페이지가 되는 것이 중요 
+
+웹이 중요하게 생각하는 접근성 중에 하나는 
+신체적인 장애가 있는 분들도 정보로부터 소외되지 않도록
+노력해야 한다는 것 
+HTML의 태그를 정확히 알고, 의미에 맞게 사용하는 것 
