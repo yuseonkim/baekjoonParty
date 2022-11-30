@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int pizza_slices = 12;
+	int persons = 0;
+	int slices_per_person = 0;
+
+	try
+	{
+		cout << "피자수를 입력하셈";
+		cin >> pizza_slices;
+		cout << "사람 수를 입력하셈";
+		cin >> persons;
+
+		if (persons < 0) throw "negative";
+		if (persons == 0)throw persons;
+		slices_per_person = (pizza_slices / persons);
+		cout << "한 사람당 피자는" << slices_per_person << " 입니다." << endl;
+	}
+	catch (const char* e) {
+		cout << "오류: 사람수가" << e << "입니다." << endl;
+	}
+	
+	catch (int e)
+	{
+		cout << "사람이" << e << " 명입니다." << endl;
+	}
+	return 0;
+}
