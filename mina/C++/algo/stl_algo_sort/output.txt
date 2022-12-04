@@ -1,0 +1,4 @@
+0 1 2 3 4 5 6 7 8 9 : sorted with the default operator<
+9 8 7 6 5 4 3 2 1 0 : sorted with the standard library compare function object
+0 1 2 3 4 5 6 7 8 9 : sorted with a custom function object
+9 8 7 6 5 4 3 2 1 0 : sorted with a lambda expression

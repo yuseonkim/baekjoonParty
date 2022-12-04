@@ -1,6 +1,6 @@
 import java.util.Date;
 import java.util.Scanner;
-public class B1308 {
+public class B1308{
 
     //윤년인지 판단하는 메소드
     static int[] ly(int year) {  //year을 받고
