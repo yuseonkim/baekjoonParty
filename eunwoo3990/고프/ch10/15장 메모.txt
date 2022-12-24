@@ -1,0 +1,48 @@
+15장 STL 컨테이너
+
+1) 반복자 : 알고리즘이랑 컨테이너 연결
+ - 전향 반복자 ++
+ - 양방향 반복자 ++ -- 
+ - 무작위 접근 반복자  ++ -- [ ]
+ - const 반복자 : 읽기만 하는 경우
+ - 역순 반복자
+vector<int>::reverse_interator rit;
+for(rit = vec.rbegin(); rit != vec.rend(); rit++)
+	cout << * rit <<" ";
+
+2) 탐색 알고리즘
+print()
+find() : 구간 안에서 요소 찾고 위치 반환
+find_if() : 구간안에서 조건을 만족하는 요소 찾아서 위치 반환
+search() : 연속적인 값들을 탐색하여 시작 위치 반환
+count() : 주어진 값과 일치하는 요소의 개수
+countt_if() : if 함수 만족하는 개수 반환
+binary_search() : 이진 탐색 
+ - lower_bound() : 구간에서 value가 있는 처음 위치
+ - upper_bound() : 마지막위치의 다음 위치
+
+4) 비교 알고리즘
+equal()
+
+5) 초기화 알고리즘
+ - fill() : 구간 안의 값을 value로 초기화 시켜버리기
+ - copy(InputIter s1, InputIter e1, OutputIter s2);
+ : s1에서 e1까지의 원소들을 s2로 복사
+ - for_each(InputIter s, InputIter e, UnaryPred func)
+ : 구간의 각각의 요소 elem 에 대하여 func(elem) 호출
+ - transform(InputIter s, InputIter e, OuputIter result, UnaryPred func) 
+ : func()을 구간의 각 요소에 적용하고 결과를 result 에 저장
+ - remove() or remove_if() : 함수의 요소 삭제
+ - sort() : 합병정렬 O(log N) 사용
+ stable_sort() 안정성 확보 정렬
+ partial_sort() 부분 정렬
+
+6) 수치알고리즘
+ - accumulator()
+ : numeric 헤더 파일 부분합 누적합
+ - inner_product() : 벡터의 내적
+
+7) 함수 객체
+ - functional 헤더파일 : 템플릿 사용!
+ - 함수 어댑터 : 함수 객체와 다른 것을 묶는 함수
+  functional에 정의되어 있음

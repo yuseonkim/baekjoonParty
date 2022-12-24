@@ -1,0 +1,23 @@
+아하!!
+
+1. 상속할 때 생성자
+DiscountProduct(const char* n, double p, int d) : Product(n, p)
+2. 가상함수 하나라도 있으면 부모 클래스 소멸자는 virtual 
+3. friend : 외부의 클래스나 함수가 자신의 내부 데이터를 사용하도록 허가
+4. 연산자 오버로딩 시 주의할 점 p420
+ - 반환값은 반드시 존재
+ - 피연산자(매개변수) 존재
+ - 어떤타입이든 상관x, 형태는 정해짐
+ - 클래스 멤버 연산자오버로딩은 왼쪽피연산자가 this, 오른쪽 매개변수가 피연산자
+ - 참조자를 사용하자! 안되니까 빡친다.
+클래스 안에서 이렇게
+friend Set& operator-(Set& set, int n) {
+		for (int i = 0;i < 10;i++) {
+			if (set.s[i] == n) {
+				set.s[i] = 0;
+				return set;
+			}
+		}
+		return set;
+	}
+

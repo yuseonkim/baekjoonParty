@@ -54,7 +54,7 @@ throw NoPersonException(persons);
 6. 형변환
 - 형변환 연산자
 static_cast     기본 타입의 변환이나 상속 관계에 있는 클래스 포인터를 변환할 때
-dynamic_cas 상속관계에 있는 클래스포인터를 안전하게 변환할때 사용, 실행시간에 식별 가능
+dynamic_cast 상속관계에 있는 클래스포인터를 안전하게 변환할때 사용, 실행시간에 식별 가능
 
 1) static_cast
  : 논리적으로 타당한 변환만을 수행 (기본 자료형 간의 변환 허용)
